@@ -13,6 +13,8 @@ on:
           - go-service1
           - go-service2
           - py-service1
+        required: true
+        multiselect: true
 
 jobs:
   deploy:
